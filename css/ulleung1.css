@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+* {margin:0; padding:0; box-sizing:border-box;}
+html, body {font:10pt/180% "맑은고딕","돋움";}
+img {
+	max-width:100%; 
+	display:block;
+}
+#layout{
+	max-width:1200px;
+	margin:auto;
+}
+/*상단*/
+header{display:flex; padding:50px;}
+h1{flex:1;}
+header h1 a {display:block;}
+nav{flex:2; 
+align-items:flex-end;
+padding-top:10px;
+}
+nav a {
+	flex:1;
+	color:black;
+	text-decoration:none;
+	padding-left:70px;	
+}
